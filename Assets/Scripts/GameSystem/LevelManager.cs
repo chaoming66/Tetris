@@ -3,7 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 
 
-public class LevelManager : MonoBehaviour {
+public class LevelManager : MonoBehaviour
+{
     public static LevelManager instance = null;
 
     #region Private Variables
