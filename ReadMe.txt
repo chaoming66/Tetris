@@ -7,9 +7,9 @@ Right arrow : Move the piece toward the right by one
 Down arrow : Move the piece doward by one 
 
 There is an editor tool within this project for adding and removing piece data. It's in the "Tools/Piece Data Tool".
-To use it, click  "Load Data" button and then you can expand "Pieces Info" list. Each element is consist of arrays of Blocks X and Blocks Y, which are 
-the data structure for blocks on pieces. The game will read x and y value from same index from each array. For instance, at element 0 
-from Blocks x will be in pair with same element from Blocks Y. If the piece has 5 blocks, it will have 5 elements in bloth Blocks X and Blocks Y.
+To use it, click  "Load Data" button and then you can expand "Pieces Info" list. Each element consists of arrays of Blocks X and Blocks Y, which are 
+the data that represents coordinate x and y for every block of each piece. For instance, element 0 from Blocks x will be in pair with same element 
+from Blocks Y to represent x and y vlaue of the first block on the piece. If the piece has 5 blocks, it will have 5 elements in bloth Blocks X and Blocks Y.
 
 The piece patterns that are created already are based on this diagram
 http://colinfahey.com/tetris/tetris_diagram_pieces_orientations_new.jpg
