@@ -6,12 +6,17 @@ using System.IO;
 public class DataEditor : EditorWindow
 {
     public PieceDataReader pieceData;
-    private string m_filePath = Path.Combine(Application.dataPath, Path.Combine("Data", "Pieces.json"));
+    private string m_filePath = null;
 
     [MenuItem("Tools/Piece Data Editor")]
     static void Init()
     {
-        EditorWindow.GetWindow(typeof(DataEditor)).Show();
+        EditorWindow.GetWindow(typeof(DataEditor)).Show(true);
+    }
+
+    private void OnEnable()
+    {
+        m_filePath = Path.Combine(Application.dataPath, Path.Combine("Data", "Pieces.json"));
     }
 
     void OnGUI()
