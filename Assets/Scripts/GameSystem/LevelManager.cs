@@ -10,15 +10,15 @@ public class LevelManager : MonoBehaviour
     #region Private Variables
 
     [SerializeField]
-    private GameObject m_pauseButton;
+    private GameObject m_pauseButton = null;
     [SerializeField]
-    private GameObject m_startButton;
+    private GameObject m_startButton = null;
     [SerializeField]
-    private Text m_currentScore;
+    private Text m_currentScore = null;
     [SerializeField]
-    private Text m_highestScoreTxt;
+    private Text m_highestScoreTxt = null;
     [SerializeField]
-    private GameObject m_gameOverTxt;
+    private GameObject m_gameOverTxt = null;
 
     // Reference to the state machine
     private StateManager m_stateMachine = null;
