@@ -10,5 +10,5 @@ Down arrow : Move the piece doward by one
 
 The piece patterns that are created already are based on this diagram
 
-![](http://colinfahey.com/tetris/tetris_diagram_pieces_orientations_new.jpg)
+<img src="http://colinfahey.com/tetris/tetris_diagram_pieces_orientations_new.jpge" width="50" height="50"/>
 
