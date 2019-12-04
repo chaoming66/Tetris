@@ -1,6 +1,6 @@
 ### Overview
 
-This is a practice of making the tetris games with in Unity with barebone assets. In the codebase, you would find typically used state-machine driven framework as well as gameplay logic for moving pieces and eliminating lines.
+This is a practice of making the tetris games with in Unity with barebone assets. In the codebase, you would find typically used state-machine driven framework as well as gameplay logic for moving pieces and eliminating lines. The project is recently upgraded to be compatible with Unity version 2019.2.14f1
 
 
 ### GamePlay Instructions
