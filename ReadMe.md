@@ -1,9 +1,9 @@
-### Overview
+# Overview
 
 This is a practice of making the tetris games with in Unity with barebone assets. In the codebase, you would find typically used state-machine driven framework as well as gameplay logic for moving pieces and eliminating lines. The project is recently upgraded to be compatible with Unity version 2019.2.14f1
 
 
-### GamePlay Instructions
+# GamePlay Instructions
 
 To start the game, click play button on editor and a "start" button will appear. Click the start button to start the board and pieces will start getting
 spawned. Here are the controls:
