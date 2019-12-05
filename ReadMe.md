@@ -20,3 +20,7 @@ The piece patterns that are created already are based on this diagram
 
 <img src="https://www.colinfahey.com/tetris/tetris_diagram_pieces_orientations_new.jpg" width="320">
 
+# Version of Unity 
+
+Unity version 2019.2.14f1 when last pushed
+
